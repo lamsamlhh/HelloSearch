@@ -28,12 +28,12 @@
 + 投票机制实现内容提取
 + SVM二分类模型区分列表页与详情页
 
-### 安装教程
+### 安装
 
 ```python
 # 这个是直接导出的完整环境
 pip install -r requirments -i https://pypi.tuna.tsinghua.edu.cn/simple  
-# 这个是我印象中使用的技术栈，也可以直接安装这个
+或
 pip install -r requirments_ -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
@@ -57,7 +57,7 @@ pip install -r requirments_ -i https://pypi.tuna.tsinghua.edu.cn/simple
    # EMAIL CONFIG
    EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
    EMAIL_HOST = "smtp.qq.com"
-   EMAIL_HOST_USER = "justin3go@qq.com"
+   EMAIL_HOST_USER = "2474886276@qq.com"
    EMAIL_HOST_PASSWORD = "xxxxxxx"  # 这个不是qq密码，需要自己去qq邮箱申请
    EMAIL_PORT = 25
    # 如果部署，则需要如下配置，原因是阿里云不支持25端口发邮件
@@ -82,8 +82,6 @@ pip install -r requirments_ -i https://pypi.tuna.tsinghua.edu.cn/simple
    python manage.py migrate
    # 运行
    python manage.py runserver
-   # 打开localhost:8000/api/v1/docs/ 可以看到swagger文档
-   效果应该和 http://justin3go.cc:8000/api/v1/docs/ 一样
    ```
 
 5. 运行vue
