@@ -1,0 +1,8 @@
+{
+  "python.analysis.extraPaths": [
+    "E:\\Python\\Lib\\site-packages",
+    "F:\\vscode-workspace\\HelloSearch",
+    ".\\Engine"
+  ]
+}
+   
