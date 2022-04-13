@@ -1,19 +1,3 @@
-# XiuSearch
-
-### 简介
-XiuSearch是一款搜索技术博客的搜索引擎，当然，如果你将种子网址换成新闻网站，这就是一个新闻搜索引擎，它对于文章搜索来说是通用的。
-
-[演示链接](http://justin3go.cc/)
-[接口文档](http://justin3go.cc:8000/api/v1/docs/)
-
-> 如果网址失效，下方视频中也有演示的效果.
-
-[视频介绍链接](https://www.bilibili.com/video/BV16m4y1X78V)
-
-项目架构图
-
-![image-20220122123051493](https://webplus-cn-shenzhen-s-6130b804f968dd14cecc43e2.oss-cn-shenzhen.aliyuncs.com/blogs/image-20220122123051493.png)
-
 ### 功能
 + 历史记录与搜索建议
 + 检索使用elasticsearch→快
