@@ -83,7 +83,7 @@ class SearchView(APIView):
                 page_nums = int(total_nums / 10)
 
             hit_list = []
-            # 这里封装的时候也可以重新排序-->不过elastic里面应该有，后面可以看看
+
             for hit in response["hits"]["hits"]:
                 hit_dict = {}
                 # title

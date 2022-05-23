@@ -25,6 +25,7 @@
 			/> -->
       <router-link class="btn1" :to="{ path: '/login' }">登录</router-link>
       <router-link class="btn2" :to="{ path: '/register' }">注册</router-link>
+      <!-- <router-link class="btn2" :to="{ path: '/' }">HTTP分析</router-link> -->
     </div>
   </div>
 </template>

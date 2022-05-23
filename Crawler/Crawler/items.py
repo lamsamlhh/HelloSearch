@@ -57,7 +57,6 @@ class DetailItem(scrapy.Item):
 class ListItem(scrapy.Item):
     # 列表页不需要存内容以及标题，并且暂时不用建立索引，保存到数据库中就可以了
     page_url  = scrapy.Field()  # 当前网页的url
-    
     encode = scrapy.Field()
     keywords = scrapy.Field()
     description = scrapy.Field()
@@ -78,7 +77,7 @@ class ListItem(scrapy.Item):
         )
 
         return insert_sql, sql_params
-    
+        
 
     def help_fields(self):
         for field in self.fields:

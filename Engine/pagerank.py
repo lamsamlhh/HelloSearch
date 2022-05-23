@@ -4,6 +4,7 @@ import pymysql
 import ast
 import sys
 sys.path.append("F:\\vscode-workspace\\HelloSearch\\Engine")
+sys.path.append("F:\\vscode-workspace\\HelloSearch")
 from config import MYSQL_HOST, MYSQL_DBNAME, MYSQL_USER, MYSQL_PASSWORD
 
 

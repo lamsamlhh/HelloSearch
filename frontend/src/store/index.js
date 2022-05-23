@@ -37,7 +37,7 @@ export default createStore({
     },
   },
   actions: {
-    // TODO 这些方法放在vuex里面有什么作用，其他地方直接调用api里面的不好吗
+
   },
   modules: {
   }

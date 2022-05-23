@@ -4,9 +4,7 @@ import redis
 import re
 import hashlib
 import sys
-sys.path.append("F:\\vscode-workspace\\xiu-search-main")
-sys.path.append("F:\\vscode-workspace\\xiu-search-main\\Engine")
-sys.path.append("F:\\vscode-workspace\\xiu-search-main\\config.py")
+sys.path.append("F:\\vscode-workspace\\HelloSearch\\config.py")
 from config import REDIS_HOST
 
 def real_time_count(key, init):
